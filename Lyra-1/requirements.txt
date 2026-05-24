@@ -47,4 +47,9 @@ ninja>=1.11.0
 packaging>=23.0
 
 # Flash attention (optional, for faster training)
+# Uncomment the line below if your GPU supports it (Ampere or newer, e.g. A100/3090/4090)
 # flash-attn>=2.3.0
+
+# Optional: jupyter support for local experimentation
+# jupyter>=1.0.0
+# ipywidgets>=8.0.0
